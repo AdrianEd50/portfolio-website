@@ -1,0 +1,37 @@
+body, html { 
+    height: 100%;
+}
+
+body { 
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper { 
+    flex: 1 0 auto;
+}
+
+footer {
+    background-color: #949494;
+    flex-shrink: 0;
+    color: black;
+    text-align: center;
+
+}
+
+.navbar { 
+    background-color: #949494;
+}
+
+/*Home page*/
+
+.home-img { 
+    background-image: url(../images/portfolio\ home\ img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 91.5vh;
+}
+
+.home-img h1,p{ 
+    color: white;
+}
