@@ -7,6 +7,11 @@ body {
     flex-direction: column;
 }
 
+.conteiner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .wrapper { 
     flex: 1 0 auto;
 }
@@ -23,6 +28,16 @@ footer {
     background-color: #949494;
 }
 
+.active { 
+    text-decoration: underline;
+}
+
+.nav-link:hover { 
+    text-decoration: underline;
+}
+
+
+
 /*Home page*/
 
 .home-img { 
@@ -35,3 +50,73 @@ footer {
 .home-img h1,p{ 
     color: white;
 }
+
+/*About page*/
+.about { 
+    display: flex;
+    flex-direction: row;
+}
+
+.about h1 {
+    margin-top: 10px;
+    margin-left: 35px;
+    font-family: 'Merriweather', serif;
+}
+
+.about p {
+    color: black;
+    margin: 35px;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;    
+}
+
+
+.about img { 
+    width: 100%;
+    margin-top: 85px;    
+} 
+
+.profile-img { 
+    width: 30%;
+    margin-left: 170px;
+}
+
+/*portfolio page*/
+
+.portfolio-img { 
+    background-image: url(../images/portfolio\ img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 91.5vh;
+}
+
+.portfolio-img h1 { 
+    font-family: 'Merriweather', serif;
+}
+
+.portfolio-links a { 
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Contact page*/
+
+.contact-img { 
+    background-image: url(../images/portfolio\ contact\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 91.5vh;
+}
+
+.contact-spesific { 
+    margin-top: 380px;
+    margin-left: 150px;
+}
+
+
+
+.form-error { 
+    color: red;
+}
+    
