@@ -28,6 +28,10 @@ footer {
     background-color: #949494;
 }
 
+.navbar-light .navbar-nav .nav-link { 
+    color: black;
+}
+
 .active { 
     text-decoration: underline;
 }
@@ -51,10 +55,15 @@ footer {
     color: white;
 }
 
+.home  {
+    padding: 20px;
+    position: absolute;
+    top: 150px; left: 60px;
+}
+
 /*About page*/
 .about { 
-    display: flex;
-    flex-direction: row;
+    padding: 10px;
 }
 
 .about h1 {
@@ -78,8 +87,11 @@ footer {
 
 .profile-img { 
     width: 30%;
-    margin-left: 170px;
+    margin-left: 120px;
 }
+
+.profile-img img { 
+    border-radius: 45%;}
 
 /*portfolio page*/
 
@@ -88,6 +100,7 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 91.5vh;
+    background-position-x: center;
 }
 
 .portfolio-img h1 { 
@@ -95,9 +108,19 @@ footer {
 }
 
 .portfolio-links a { 
-    color: black;
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.4em;
 }
+
+.my-work { 
+    position:absolute;
+    top: 350px; left: 60px;
+}
+
+.my-work h1 { 
+    font-size: 3.3em;
+}
+
 
 
 /*Contact page*/
@@ -106,17 +129,191 @@ footer {
     background-image: url(../images/portfolio\ contact\ img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 91.5vh;
+    width: 100%;
+    height: 100%;
 }
 
 .contact-spesific { 
-    margin-top: 380px;
-    margin-left: 150px;
+    position: absolute;
+    top: 350px; left: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
 
+.contact-spesific > * { 
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
 
 
 .form-error { 
     color: red;
 }
+
+.contact {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+input, textarea { 
+    border: 2px solid;
+    border-radius: 7px;
+    padding: 4px;
+    margin: 10px 10px 10px 0px;
+    width: 600px;
+}
+
+textarea {
+    height: 75%;
+    min-height: 100px;
+}
+
+.cta-contact {
+    width: 100px;
+    margin-right: 600px;
+    margin-bottom: 30px
+}
+
+.contact-h1 {
+    position: absolute;
+    top: 100px; left: 500px;
+    font-size: 3.5em;
+}
+
+
+
+/*Media*/
+
+@media (min-width:500px) { 
+    .home-img {
+        width: 100%;
+    }
+
+    .home  { 
+        position: absolute;
+        top: 250px; left: 70px;
+    } 
+
+    .portfolio-img { 
+        width: 100%;
+    }
+
+    
+
+    .profile-img { 
+        width: 30%;
+        margin-left: 170px;
+    }
+}
+
+@media (min-width:600px) { 
+   .my-work { 
+    top: 350px; left: 160px;
+}
+}
+
+
+
+@media (min-width:700px) { 
+    .profile-img { 
+        width: 30%;
+        margin-left: 190px;
+    }
+}
+
+
+@media (min-width:800px) { 
+   .about { 
+        display: flex;
+        flex-direction: row;
+    }
+
+    .my-work { 
+        top: 350px; left: 230px;
+    }
+}
+
+@media (min-width:900px) { 
+    .home-img {
+        width: 100%;
+    }
+
+    .my-work { 
+        top: 350px; left: 270px;
+    }
+
+    .home  { 
+        position: absolute;
+        top: 250px; left: 250px;
+    }
+}
+
+@media (min-width:1000px) { 
+    .my-work { 
+        top: 350px; left: 350px;
+    }
+}
+
+@media (min-width:1100px) { 
+    .my-work { 
+        top: 350px; left: 400px;
+    }
+}
+
+@media (min-width:1200px) { 
+    
+
+    .home  { 
+        position: absolute;
+        top: 250px; left: 400px;
+    }
+
+    .my-work { 
+        top: 400px; left: 400px;
+    }
+}
+
+@media (min-width:1300px) { 
+    .my-work { 
+        top: 400px; left: 500px;
+    }
+}
+
+@media (min-width:1400px) { 
+    .my-work { 
+        top: 420px; left: 550px;
+    }
+}
+
+@media (min-width:1500px) { 
+    .my-work { 
+        top: 450px; left: 600px;
+    }
+}
+
+@media (min-width:1600px) { 
+    .my-work { 
+        top: 450px; left: 600px;
+    }
+}
+
+@media (min-width:1700px) { 
+    .my-work { 
+        top: 470px; left: 650px;
+    }
+}
+
+@media (min-width:1800px) { 
+    .my-work { 
+        top: 520px; left: 700px;
+    }
+}
+
+
+  
+
     
