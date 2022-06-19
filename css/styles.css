@@ -49,6 +49,7 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 91.5vh;
+    background-position-x: center;
 }
 
 .home-img h1,p{ 
@@ -126,19 +127,19 @@ footer {
 /*Contact page*/
 
 .contact-img { 
-    background-image: url(../images/portfolio\ contact\ img.jpg);
+    background-image: url(../images/contact\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
+    background-position-x: center;
 }
 
 .contact-spesific { 
-    position: absolute;
-    top: 350px; left: 500px;
     display: flex;
     flex-direction: column;
     text-align: left;
+    padding: 25px;
 }
 
 .contact-spesific > * { 
@@ -150,6 +151,7 @@ footer {
 
 .form-error { 
     color: red;
+    display: none;
 }
 
 .contact {
@@ -164,25 +166,22 @@ input, textarea {
     border-radius: 7px;
     padding: 4px;
     margin: 10px 10px 10px 0px;
-    width: 600px;
 }
 
 textarea {
-    height: 75%;
+    height: 80%;
     min-height: 100px;
 }
 
 .cta-contact {
     width: 100px;
-    margin-right: 600px;
-    margin-bottom: 30px
 }
 
 .contact-h1 {
-    position: absolute;
-    top: 100px; left: 500px;
     font-size: 3.5em;
 }
+
+
 
 
 
@@ -200,28 +199,30 @@ textarea {
 
     .portfolio-img { 
         width: 100%;
-    }
-
-    
+    }    
 
     .profile-img { 
         width: 30%;
         margin-left: 170px;
-    }
+    } 
 }
 
 @media (min-width:600px) { 
    .my-work { 
     top: 350px; left: 160px;
 }
-}
 
+}
 
 
 @media (min-width:700px) { 
     .profile-img { 
         width: 30%;
         margin-left: 190px;
+    }
+
+    .contact-spesific { 
+        flex-direction: row;  
     }
 }
 
@@ -255,6 +256,14 @@ textarea {
 @media (min-width:1000px) { 
     .my-work { 
         top: 350px; left: 350px;
+    }
+
+    .contact-spesific { 
+        top: 160px; left: 350px;
+    }
+
+    .contact-h1 {
+        top: 60px; left: 350px;
     }
 }
 
@@ -304,13 +313,13 @@ textarea {
 @media (min-width:1700px) { 
     .my-work { 
         top: 470px; left: 650px;
-    }
+    }   
 }
 
 @media (min-width:1800px) { 
     .my-work { 
         top: 520px; left: 700px;
-    }
+    } 
 }
 
 
