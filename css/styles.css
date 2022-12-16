@@ -107,6 +107,7 @@ footer {
 .portfolio-img h1 { 
     font-family: 'Merriweather', serif;
     padding: 30px;
+    color: black;
 }
 
 .portfolio-links a { 
@@ -123,6 +124,36 @@ footer {
     font-size: 3.3em;
     
 }
+
+/*card*/
+.card-text { 
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cards { 
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    margin: 10px auto;
+}
+
+.card img {
+    padding: 10px;
+}
+
+.card-title { 
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-body { 
+    padding: 10px;
+    margin: 10px;
+}
+
 
 
 
@@ -245,9 +276,9 @@ textarea {
         width: 100%;
     }
 
-    /*.my-work { 
-        top: 350px; left: 270px;
-    }*/
+    .cards { 
+        flex-direction: row;
+    }
 
     .home  { 
         position: absolute;
