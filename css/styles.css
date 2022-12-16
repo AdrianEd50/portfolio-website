@@ -48,7 +48,7 @@ footer {
     background-image: url(../images/portfolio\ home\ img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 91.5vh;
+    min-height: 94.2vh;
     background-position-x: center;
 }
 
@@ -97,15 +97,16 @@ footer {
 /*portfolio page*/
 
 .portfolio-img { 
-    background-image: url(../images/portfolio\ img.jpg);
+    background-image: url(../images/contact\ 2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 91.5vh;
+    min-height: 94vh;
     background-position-x: center;
 }
 
 .portfolio-img h1 { 
     font-family: 'Merriweather', serif;
+    padding: 30px;
 }
 
 .portfolio-links a { 
@@ -113,13 +114,14 @@ footer {
     font-size: 1.4em;
 }
 
-.my-work { 
-    position:absolute;
-    top: 350px; left: 60px;
+.my-work {
+    text-align: center;
 }
+
 
 .my-work h1 { 
     font-size: 3.3em;
+    
 }
 
 
@@ -207,13 +209,13 @@ textarea {
     } 
 }
 
-@media (min-width:600px) { 
+/*@media (min-width:600px) { 
    .my-work { 
     top: 350px; left: 160px;
 }
 
 }
-
+*/
 
 @media (min-width:700px) { 
     .profile-img { 
@@ -233,9 +235,9 @@ textarea {
         flex-direction: row;
     }
 
-    .my-work { 
+    /*.my-work { 
         top: 350px; left: 230px;
-    }
+    }*/
 }
 
 @media (min-width:900px) { 
@@ -243,9 +245,9 @@ textarea {
         width: 100%;
     }
 
-    .my-work { 
+    /*.my-work { 
         top: 350px; left: 270px;
-    }
+    }*/
 
     .home  { 
         position: absolute;
@@ -254,9 +256,9 @@ textarea {
 }
 
 @media (min-width:1000px) { 
-    .my-work { 
+    /*.my-work { 
         top: 350px; left: 350px;
-    }
+    }*/
 
     .contact-spesific { 
         top: 160px; left: 350px;
@@ -267,11 +269,11 @@ textarea {
     }
 }
 
-@media (min-width:1100px) { 
+/*@media (min-width:1100px) { 
     .my-work { 
         top: 350px; left: 400px;
     }
-}
+}*/
 
 @media (min-width:1200px) { 
     
@@ -281,30 +283,30 @@ textarea {
         top: 250px; left: 400px;
     }
 
-    .my-work { 
+    /*.my-work { 
         top: 400px; left: 400px;
-    }
+    }*/
 }
 
 @media (min-width:1300px) { 
-    .my-work { 
+    /*.my-work { 
         top: 400px; left: 500px;
-    }
+    }*/
 }
 
 @media (min-width:1400px) { 
-    .my-work { 
+    /*.my-work { 
         top: 420px; left: 550px;
-    }
+    }*/
 }
 
 @media (min-width:1500px) { 
-    .my-work { 
+    /*.my-work { 
         top: 450px; left: 600px;
-    }
+    }*/
 }
 
-@media (min-width:1600px) { 
+/*@media (min-width:1600px) { 
     .my-work { 
         top: 450px; left: 600px;
     }
@@ -322,7 +324,16 @@ textarea {
     } 
 }
 
-
+@media (min-width:2000px) { 
+    .my-work { 
+        top: 600px; left: 900px;
+    } 
+}
   
-
+@media (min-width:2400px) { 
+    .my-work { 
+        top: 650px; left: 1100px;
+    } 
+}*/
+  
     
