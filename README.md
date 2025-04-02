@@ -26,4 +26,4 @@
 
 <h2>Contact</h2>
 <p>My linked in link</p>
-<p>https://www.linkedin.com/in/adrian-lafjell-ed-3b04aa1b6/</p>
+<p>https://www.linkedin.com/in/adrian-lafjell-ed-4515461b5/</p>
